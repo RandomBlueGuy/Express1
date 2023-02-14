@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req,res) =>{
     console.log("I suppose nodemon refreshes the changes made only after every refresh?");
-    res.status(200).send(data);
+    res.status(200).json(data);
 
     //Display in HTML format
     /*
